@@ -18,7 +18,6 @@ export const RecipeCard = ({recipe}) => {
                 <Link href={`/recipes/${slug}`}><a>Cook this</a></Link>
             </div>
         </div>
-        <p>{title}</p>
 
         <style jsx>{`
           .card {
